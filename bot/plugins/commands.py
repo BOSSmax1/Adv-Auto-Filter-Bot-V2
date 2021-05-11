@@ -38,7 +38,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/cinemahub_boss"
+                                    '😎 Join Our Group 😎', url="https://t.me/cinemahub_boss"
                                 )
                         ]
                     ]
