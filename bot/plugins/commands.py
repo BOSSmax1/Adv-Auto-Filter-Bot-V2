@@ -76,7 +76,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '😎 Join Group 😎', url="https://t.me/cinemahub_boss"
+                                    '🤩 Join Group 🤩', url="https://t.me/cinemahub_boss"
                                 )
                         ]
         else:
