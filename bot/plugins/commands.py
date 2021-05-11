@@ -39,9 +39,10 @@ async def start(bot, update):
                             InlineKeyboardButton
                                 (
                                     '😎join our group😎', url="https://t.me/cinemahub_boss"
-                                    '😎join our group😎', url="https://t.me/cinemahub_boss"
-                                    '😎join our group😎', url="https://t.me/cinemahub_boss"
-                                    '😎join our group😎', url="https://t.me/cinemahub_boss"
+                                )  
+                            InlineKeyboardButton      
+                                (
+                                    '😎join our group😎', url="https://t.me/cinemahub_boss"  
                                 )
                         ]
                     ]
@@ -148,5 +149,5 @@ async def about(bot, update):
         disable_web_page_preview=True,
         parse_mode="html",
         reply_to_message_id=update.message_id
-    )
- 
+       
+                       
