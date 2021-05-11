@@ -39,9 +39,9 @@ async def start(bot, update):
                             InlineKeyboardButton
                                 (
                                     '😎join our group😎', url="https://t.me/cinemahub_boss"
-                                 [InlineKeyboardButton("Join Our Channel", callback_data="help_data"),
-                                    InlineKeyboardButton("ABOUT", callback_data="about_data")],
-                                 [InlineKeyboardButton("⭕️ JOIN OUR CHANNEL ⭕️", url="https://t.me/TroJanzHEX")]
+                                    '😎join our group😎', url="https://t.me/cinemahub_boss"
+                                    '😎join our group😎', url="https://t.me/cinemahub_boss"
+                                    '😎join our group😎', url="https://t.me/cinemahub_boss"
                                 )
                         ]
                     ]
