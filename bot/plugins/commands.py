@@ -36,11 +36,11 @@ async def start(bot, update):
                 reply_markup=InlineKeyboardMarkup(
                             [
                 [
-                    InlineKeyboardButton('𝚂𝙷𝙰𝚁𝙴🌐', url='shareurl')
+                    InlineKeyboardButton('𝚂𝙷𝙰𝚁𝙴🌐', url='https://t.me/cinemahub_boss')
                 ],
                 [
-                    InlineKeyboardButton('🎥𝙶𝚁𝙾𝚄𝙿', url='https://t.me/usernMe'),
-                    InlineKeyboardButton('𝙲𝙷𝙰𝙽𝙽𝙴𝙻🎭', url='https://t.me/username')
+                    InlineKeyboardButton('🎥𝙶𝚁𝙾𝚄𝙿', url='https://t.me/cinemahub_boss'),
+                    InlineKeyboardButton('𝙲𝙷𝙰𝙽𝙽𝙴𝙻🎭', url='https://t.me/HBOmax_com')
                 ]
             ]
         )
