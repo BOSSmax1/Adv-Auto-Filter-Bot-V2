@@ -34,18 +34,14 @@ async def start(bot, update):
                 parse_mode="html",
                 reply_to_message_id=update.message_id,
                 reply_markup=InlineKeyboardMarkup(
-                    [
-                        [
-                            InlineKeyboardButton
-                                (
-                                    '😎 Join Our Group 😎', url="https://t.me/cinemahub_boss"
-                                )
-                        ]
-                    ]
-                )
-            )
-
-        elif file_type == "video":
+    buttons = [[
+        InlineKeyboardButton('Home ⚡', callback_data='start'),
+        InlineKeyboardButton('About 🚩', callback_data='about')
+    ],[
+        InlineKeyboardButton('Close 🔐', callback_data='close')
+    ]]
+                        
+      elif file_type == "video":
         
             await bot.send_video(
                 chat_id=update.chat.id,
@@ -146,3 +142,13 @@ async def about(bot, update):
         parse_mode="html",
         reply_to_message_id=update.message_id
     )
+                  
+                                
+                              
+                                
+                        
+                    
+                
+            
+
+       
