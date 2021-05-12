@@ -34,17 +34,17 @@ async def start(bot, update):
                 parse_mode="html",
                 reply_to_message_id=update.message_id,
                 reply_markup=InlineKeyboardMarkup(
-                    [
-                        [
-                            InlineKeyboardButton
-                                (
-                                    'Developers', url="https://t.me/CrazyBotsz"
-                                )
-                        ]
-                    ]
-                )
-            )
-
+                            [
+                [
+                    InlineKeyboardButton('𝚂𝙷𝙰𝚁𝙴🌐', url='shareurl')
+                ],
+                [
+                    InlineKeyboardButton('🎥𝙶𝚁𝙾𝚄𝙿', url='https://t.me/usernMe'),
+                    InlineKeyboardButton('𝙲𝙷𝙰𝙽𝙽𝙴𝙻🎭', url='https://t.me/username')
+                ]
+            ]
+        )
+    )
         elif file_type == "video":
         
             await bot.send_video(
