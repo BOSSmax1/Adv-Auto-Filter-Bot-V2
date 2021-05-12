@@ -25,7 +25,7 @@ async def start(bot, update):
         
         caption = file_caption if file_caption != ("" or None) else ("<code>" + file_name + "</code>" + 🤩 𝚃𝚑𝚊𝚗𝚔𝚢𝚘𝚞 𝙵𝚘𝚛 𝚄𝚜𝚒𝚗𝚐 𝙾𝚞𝚛 𝚂𝚎𝚛𝚟𝚒𝚌𝚎 And Don't forget to share our Group/Channel links to your friends 😜
  
- 😎𝕁𝕠𝕚𝕟 𝕆𝕦𝕣  Group😎)
+ 😎𝕁𝕠𝕚𝕟 𝕆𝕦𝕣  Group😎")
  
  ⟱⟱⟱⟱⟱⟱⟱⟱⟱⟱⟱⟱ 
  
