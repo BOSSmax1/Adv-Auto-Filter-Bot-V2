@@ -34,14 +34,18 @@ async def start(bot, update):
                 parse_mode="html",
                 reply_to_message_id=update.message_id,
                 reply_markup=InlineKeyboardMarkup(
-    buttons = [[
-        InlineKeyboardButton('Home ⚡', callback_data='start'),
-        InlineKeyboardButton('About 🚩', callback_data='about')
-    ],[
-        InlineKeyboardButton('Close 🔐', callback_data='close')
-    ]]
-                        
-      elif file_type == "video":
+                    [
+                        [
+                            InlineKeyboardButton
+                                (
+                                    'Developers', url="https://t.me/CrazyBotsz"
+                                )
+                        ]
+                    ]
+                )
+            )
+
+        elif file_type == "video":
         
             await bot.send_video(
                 chat_id=update.chat.id,
@@ -142,13 +146,3 @@ async def about(bot, update):
         parse_mode="html",
         reply_to_message_id=update.message_id
     )
-                  
-                                
-                              
-                                
-                        
-                    
-                
-            
-
-       
