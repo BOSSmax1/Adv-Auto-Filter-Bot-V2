@@ -29,7 +29,7 @@ async def start(bot, update):
  
  ⟱⟱⟱⟱⟱⟱⟱⟱⟱⟱⟱⟱ 
  
- 🤩𝕲𝖗𝖔𝖚𝖕 : @cinemahub_boss)
+ 𝕲𝖗𝖔𝖚𝖕 : @cinemahub_boss)
         
         if file_type == "document":
         
