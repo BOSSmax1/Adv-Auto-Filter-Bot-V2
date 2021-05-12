@@ -38,7 +38,7 @@ async def start(bot, update):
                 reply_markup=InlineKeyboardMarkup(
                             [
                 [
-                    InlineKeyboardButton('𝚂𝙷𝙰𝚁𝙴🌐', url='https://t.me/cinemahub_boss')
+                    InlineKeyboardButton('𝚂𝙷𝙰𝚁𝙴🌐', url='https://t.me/share/url?url=https%3A//t.me/cinemahub_boss')
                 ],
                 [
                     InlineKeyboardButton('🎥𝙶𝚁𝙾𝚄𝙿', url='https://t.me/cinemahub_boss'),
